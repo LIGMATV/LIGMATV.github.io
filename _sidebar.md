@@ -1,0 +1,13 @@
+- Blog
+
+  - [Cara Membuat Dokumentasi dan Blog Mudah!](blog/cara-membuat-dokumentasi-dan-blog-mudah.md)
+  - [Cara Membuat Ppt Ke Video 60 Fps!](blog/cara-membuat-ppt-ke-video-60-fps.md)
+  - [Cara Menambahkan Copyright Di Copy Paste](blog/cara-menambahkan-copyright-di-copy-paste.md)
+  - [Ebook Html CSS Manual Dasar](blog/ebook-html-css-manual-dasar.md)
+  - [Buat Url Shortener Dengan Github Dan Vercel!](blog/buat-url-shortener-dengan-github-dan-vercel.md)
+  - [Cara Menyalin Seluruh Filename Dari Folder](blog/cara-menyalin-seluruh-filename-dari-folder.md)
+  - [Cara Bikin Prank Virus Di Windows #justforfun](blog/cara-bikin-prank-virus-di-windows-justforfun.md)
+  - [Daftar 195 Nama‐nama Negara Di Dunia Beserta Ibu Kotanya](blog/daftar-195-nama‐nama-negara-di-dunia-beserta-ibu-kotanya.md)
+  - [Cara Bikin Shutdown Di Windows Lebih Simple Dan Bergaya](blog/cara-bikin-shutdown-di-windows-lebih-simple-dan-bergaya.md)
+  - [Lirik Lagu Mars Deli Serdang](blog/lirik-lagu-mars-deli-serdang.md)
+  - [Cara Membuat Intro Sendiri di Renderforest](blog/cara-membuat-intro-sendiri-di-renderforest.md)
