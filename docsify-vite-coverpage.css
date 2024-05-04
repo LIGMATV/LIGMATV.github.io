@@ -1,0 +1,100 @@
+.cover .mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+section.cover img:first-child {
+  filter: drop-shadow(5px 5px 100px var(--theme-color, #42b983));
+}
+
+section.cover .cover-main > p:last-child a {
+  letter-spacing: -.1px;
+  padding: 12px 24px;
+  background-color: #ebebef;
+  border: none;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px 8px;
+}
+
+section.cover .cover-main > p:last-child a:last-child:hover {
+  color: #ffffff;
+}
+
+section.cover h1 span {
+  color: var(--theme-color, #42b983);
+}
+
+section.cover h1,
+section.cover blockquote {
+  font-weight: 700;
+}
+
+section.cover p:nth-last-child(2),
+section.cover ul {
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 960px) {
+  section.cover .cover-main {
+    margin: 0 72px;
+  }
+
+  section.cover .cover-main,
+  section.cover h1,
+  section.cover blockquote {
+    text-align: left;
+  }
+
+  section.cover h1,
+  section.cover blockquote {
+    font-size: 56px;
+    margin: 0;
+  }
+
+  section.cover p:nth-last-child(2),
+  section.cover ul {
+    font-size: 24px;
+  }
+
+  section.cover p {
+    max-width: 576px;
+  }
+
+  section.cover .cover-main > p:last-child {
+    margin-left: -8px;
+  }
+
+  section.cover blockquote {
+    margin-top: -52px;
+    line-height: -1px;
+  }
+
+  section.cover p:nth-last-child(2),
+  section.cover ul {
+    margin-top: -32px;
+  }
+
+  section.cover p {
+    line-height: 1;
+  }
+
+  section.cover ul {
+    margin-left: 0;
+  }
+
+  section.cover img:first-child {
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+  }
+}
