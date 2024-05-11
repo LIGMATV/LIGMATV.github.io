@@ -36,7 +36,7 @@ Buku ini berisi :
 29. Center div  
 30. Selesai.  
 
-# [![](https://img.shields.io/badge/Download%20PDF-07bbbc?style=for-the-badge)](https://github.com/LIGMATV/LIGMATV/files/14471485/HTML.CSS.Manual.Dasar.pdf) [![](https://img.shields.io/badge/Download%20DOCX-07bbbc?style=for-the-badge)](https://github.com/LIGMATV/LIGMATV/files/14471495/HTML.CSS.Manual.Dasar.docx)
+# [![](https://img.shields.io/badge/Download%20PDF-07bbbc?style=for-the-badge)](https://github.com/LIGMATV/LIGMATV/files/14471485/HTML.CSS.Manual.Dasar.pdf) [![](https://img.shields.io/badge/Download%20DOCX-07bbbc?style=for-the-badge)](https://github.com/LIGMATV/LIGMATV/files/14471495/HTML.CSS.Manual.Dasar.docx) :id=download
 
 # Baca versi gambar
 

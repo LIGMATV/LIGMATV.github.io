@@ -13,13 +13,13 @@ section.cover img:first-child {
 
 section.cover .cover-main > p:last-child a {
   letter-spacing: -.1px;
-  padding: 12px 24px;
+  padding: 12px 22px;
   background-color: #ebebef;
   border: none;
   color: #000000;
   font-size: 14px;
   font-weight: 600;
-  margin: 5px 8px;
+  margin: 8px 5px;
 }
 
 section.cover .cover-main > p:last-child a:last-child:hover {
