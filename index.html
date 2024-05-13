@@ -17,7 +17,8 @@
 
 <style>
    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-  
+   @import url('prism.css');
+
    body {
     font-family: "Figtree", sans-serif;
    }
@@ -28,6 +29,21 @@
 
    button {
     font-family: inherit;
+   }
+
+   /* CV */
+
+   .profile img[alt="profile"] {
+    position: absolute;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #07bbbc;
+    padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   }
+
+   .profile h2, .profile p:not(:first-child) {
+    padding-left: 130px;
    }
 
   </style>
