@@ -7,7 +7,7 @@
 Front-end developer in North Sumatra, Indonesia  
 
 [![ligmatv.is-a.dev](https://img.shields.io/badge/Website-ligmatv.is--a.dev-07bbbc ':no-zoom')](https://ligmatv.is-a.dev/#/)
-![Status](https://img.shields.io/badge/Status-%F0%9F%92%BB%20Hey-07bbbc ':no-zoom')
+![Status](https://img.shields.io/badge/Status-%F0%9F%91%8B%20Hey-07bbbc ':no-zoom')
 
 </div>
 
