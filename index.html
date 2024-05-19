@@ -9,7 +9,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
-  <meta name='dmca-site-verification' content='bE1lVjF3c3RCS3lHTmpQYWd1WmlxNjlvZVNRcTRMZHpSRVBJcVd3VGRDWT01' />
+  <meta name='dmca-site-verification' content='bUtSSFFxcmE5YjRCVlBYcVRQRG5DdVYzWXd5WXU3UkFCc2VJeUlrRk1kcz01' />
 
   <link rel="icon" href="img/logo.svg">
   <link rel="stylesheet" href="github.css">
@@ -17,33 +17,60 @@
 
 <style>
    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-   @import url('prism.css');
 
    body {
-    font-family: "Figtree", sans-serif;
+       font-family: "Figtree", sans-serif;
    }
 
-   section.cover .cover-main > p:last-child a {
-    border-radius: 24px;
+   section.cover .cover-main>p:last-child a {
+       border-radius: 24px;
    }
 
    button {
-    font-family: inherit;
+       font-family: inherit;
+   }
+
+   .docsify-dark-mode .sidebar .search input[type=search]:not(:focus) {
+       border: #000 !important;
+   }
+
+   .docsify-dark-mode .markdown-section p.warn {
+    color: var(--dark-base-color);
+   }
+
+   .docsify-dark-mode .sidebar-toggle span {
+     background-color: #ffffff;
    }
 
    /* CV */
 
    .profile img[alt="profile"] {
-    position: absolute;
-    width: 100px;
-    border-radius: 50%;
-    border: 3px solid #07bbbc;
-    padding: 2px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+       position: absolute;
+       width: 100px;
+       border-radius: 50%;
+       border: 3px solid #07bbbc;
+       padding: 2px;
+       box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
    }
 
-   .profile h2, .profile p:not(:first-child) {
-    padding-left: 130px;
+   .profile h2,
+   .profile p:not(:first-child) {
+       padding-left: 130px;
+   }
+
+   /* docsify-github-edit-link | https://github.com/zolk/docsify-github-edit-link */
+
+   .edit-on-github::before {
+       border-top: 1px solid #d8dee4;
+       display: inline-flex;
+       content: '';
+       background: var(--theme-color);
+       mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath fill='%2307bbbc' d='M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z'/%3E%3C/svg%3E");
+       height: 16px;
+       width: 16px;
+       transform: translate(0, 3px);
+       margin-right: 6px;
+       margin-top: 48px;
    }
 
   </style>
@@ -70,7 +97,7 @@
     },
     githubEditLink: {
      repo: "https://github.com/LIGMATV/LIGMATV.github.io",
-     title: "<br><br><br> ✏️ Edit this page on GitHub",
+     title: "Edit this page on GitHub",
      docsDir: "",
     },
    }
@@ -83,5 +110,24 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-github-edit-link@1/dist/github-edit-link.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="docsify-dark-switcher.js"></script>
+
+  <style>
+:root {
+    --dark-base-background: #222;
+    --dark-base-color: #bbc0c4;
+    --dark-theme-color: var(--theme-color, #42b983);
+    --dark-code-color: var(--dark-base-color);
+    --dark-heading-color: var(--dark-theme-color);
+    --dark-cover-background: #000000a8;
+    --dark-code-background: #303030;
+    --dark-tip-background: transparent;
+    --dark-warn-background: transparent;
+    --dark-icon-size: 25px;
+    --dark-icon-transition: .1s ease-in-out .1s;
+    --dark-moon-color: #000000;
+    --dark-sun-color: #ffffff;
+   }
+  </style>
  </body>
 </html>

@@ -46,10 +46,19 @@ span.emoji {
 }
 .search input {
   font-family: inherit;
-  border-radius: 5px;
+  border-radius: 6px;
   max-height: 35px;
   border: 1px solid rgb(225, 225, 225) !important;
-  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-shadow: rgba(208, 215, 222, 0.2) 0px 1px 0px inset;
+}
+.sidebar .search input[type=search] {
+  min-width: 0;
+  padding-left: 38px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath fill='%2357606a' d='M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z'/%3E%3C/svg%3E");
+  background-position: 14px center;
+  background-repeat: no-repeat;
 }
 .search input:focus {
   border: 2px solid var(--theme-color, #42b983) !important;
@@ -416,7 +425,6 @@ body.sticky .sidebar-toggle {
   color: #000000;
   border-left: 3px solid #218bff;
   padding: 0 1rem 0;
-  line-height: 2.3;
   margin: 2em 0;
 }
 .markdown-section p.warn:before {
@@ -426,6 +434,7 @@ body.sticky .sidebar-toggle {
   color: #218bff;
   font-weight: 600;
   white-space: pre-wrap;
+  line-height: 2.5;
 }
 .markdown-section ul.task-list > li {
   list-style-type: none;
@@ -666,14 +675,13 @@ body {
 .markdown-section h6 a {
   text-decoration: none !important;
 }
-.markdown-section a span:hover:before {
+.markdown-section a>span:hover:before {
   margin-left: -16px;
   width: 16px;
   height: 16px;
   content: ' ';
   display: inline-block;
   background-color: currentColor;
-  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
   mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
 }
 .markdown-section a {
