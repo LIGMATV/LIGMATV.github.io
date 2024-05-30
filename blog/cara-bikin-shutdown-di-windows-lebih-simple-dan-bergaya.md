@@ -177,4 +177,4 @@ Dan boom! Sekarang ikon dan cara kalian mematikan pc kalian terlihat keren dan s
 
 Terima kasih telah mampir ke blog kami! Sampai jumpa.
 
-Blog dibuat pada 16 Juni 2023
+[date-created]: 2023/06/16

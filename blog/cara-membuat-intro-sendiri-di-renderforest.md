@@ -100,4 +100,5 @@ blog tutorial lainnya. Dan maaf jika ada kesalahan dalam penulisan blog
 tutorial saya kali ini. Terima kasih dan sampai jumpa.
 
 Video dibuat pada 13 September 2020  
-Blog dibuat pada 1 Juni 2023
+
+[date-created]: 2023/06/01

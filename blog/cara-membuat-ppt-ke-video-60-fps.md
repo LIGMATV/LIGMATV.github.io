@@ -68,4 +68,4 @@ Pengeksporan sudah diproses, tunggu dan lihat hasilnya di folder Videos atau pat
 
 ![2024-03-30 15_30_26-](https://i.imgur.com/0mxjuXy.jpg)
 
-Blog dibuat pada : 30 Maret 2024
+[date-created]: 2024/03/30

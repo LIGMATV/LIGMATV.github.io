@@ -9,5 +9,4 @@
 
 Terima kasih telah mampir ke blog kami! Sampai jumpa.
 
-Blog dibuat pada 26 Februari 2024
-
+[date-created]: 2024/02/26

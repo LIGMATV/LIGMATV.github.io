@@ -114,4 +114,4 @@ Untuk lebih lanjut, bisa kalian [tonton disini!](https://youtu.be/ZdV6wKo5o1A)
 
 Terima kasih telah mampir ke blog kami! Sampai jumpa.
 
-Blog dibuat pada : 28 Juni 2023
+[date-created]: 2023/06/28

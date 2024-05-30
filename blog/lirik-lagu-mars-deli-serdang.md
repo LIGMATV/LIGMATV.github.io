@@ -63,4 +63,5 @@ orang yang menghafal Mars Deli Serdang ini 😁 Ok, terima kasih
 teman-teman. Salam anak Deli Serdang, Sampai jumpa!
 
 Video dibuat pada 16 Agustus 2022  
-Blog dibuat pada 10 Juni 2023
+
+[date-created]: 2023/06/10

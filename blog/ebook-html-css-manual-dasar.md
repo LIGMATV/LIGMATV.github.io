@@ -69,6 +69,6 @@ Buku ini berisi :
 ![HTML CSS Manual Dasar_Page_27](https://github.com/LIGMATV/LIGMATV/assets/143163098/ce75567c-0c09-468d-a60d-fc08f9d480e2)
 ![HTML CSS Manual Dasar_Page_28](https://github.com/LIGMATV/LIGMATV/assets/143163098/ce41d7a1-f63b-4ab8-993a-712b5b75ac29)
 
-Blog dibuat pada : 2 Maret 2024
-
 Termasuk ke dalam list [free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-id.md#html-and-css).
+
+[date-created]: 2024/03/02

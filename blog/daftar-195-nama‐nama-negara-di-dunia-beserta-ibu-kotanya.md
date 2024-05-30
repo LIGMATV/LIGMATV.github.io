@@ -400,4 +400,4 @@ No. Nama Negara - Nama Ibu Kota
 
 Terima kasih telah mampir ke blog kami! Sampai jumpa.
 
-Blog dibuat pada : 23 Juni 2023
+[date-created]: 2023/06/23

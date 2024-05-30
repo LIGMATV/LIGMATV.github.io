@@ -381,5 +381,4 @@ Cool
 
 <!-- tabs:end -->
 
-
-Blog dibuat pada : 20 April 2024
+[date-created]: 2024/04/20

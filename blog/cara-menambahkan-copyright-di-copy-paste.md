@@ -74,4 +74,4 @@ Dan contohnya jika isi teksnya adalah **Halo** maka ketika di Copy Paste akan me
 Tidak percaya? Silahkan coba!  
 [Coba langsung demonya](https://jsbin.com/kiyejahava/edit?output)
 
-Blog dibuat pada : 20 Maret 2024
+[date-created]: 2024/03/20

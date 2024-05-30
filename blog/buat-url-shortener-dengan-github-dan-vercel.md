@@ -37,4 +37,4 @@ Tapi daripada menggunakan url shortner tersebut, mengapa tidak membuatnya senidr
 
 ### Selesai!
 
-Blog dibuat pada : 29 Februari 2024
+[date-created]: 2024/02/29
