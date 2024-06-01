@@ -21,7 +21,7 @@ Hello! Im a *(not)* too excited developer, im just do it for fun in the free tim
 
 *2024*
 
-- [**Bukumark ↗️**](https://bukumark.js.org/)  
+- [**Bukumark**](https://bukumark.js.org/)  
 Bookmark manager that keep you simple with beautiful UI  
 
   [Source](https://github.com/LIGMATV/Bukumark)
@@ -31,7 +31,7 @@ Bookmark manager that keep you simple with beautiful UI
 
 *2023*
 
-- [**More on my GitHub ↗️**](https://github.com/LIGMATV#-some-tools-by-me)
+- [**More on my GitHub**](https://github.com/LIGMATV#-some-tools-by-me)
 
 ---
 
@@ -39,18 +39,18 @@ Bookmark manager that keep you simple with beautiful UI
 
 *2018 - 2024*
 
-- [**SD at Negeri 105855 PTPN II ↗️**](https://maps.app.goo.gl/5d7PcdaCbQjdwxFs9)  
+- [**SD at Negeri 105855 PTPN II**](https://maps.app.goo.gl/5d7PcdaCbQjdwxFs9)  
   Jl. Batang Kuis No.4, Limau Manis, Kec. Tj. Morawa, Kabupaten  
   Deli Serdang, Sumatera Utara 20362
 
 *2017 - 2018*
 
-- [**TK at RA/PAUD Cut Mutia ↗️**](https://maps.app.goo.gl/VgTFfiLFt4EXafUk7)  
+- [**TK at RA/PAUD Cut Mutia**](https://maps.app.goo.gl/VgTFfiLFt4EXafUk7)  
   Jl. Sei Blumai Hilir, Desa Dagang Kelambir, Dusun 1, Buntu  
   Bedimbar, Kec. Tj. Morawa, Kabupaten Deli Serdang, Sumatera Utara 20362
 
 *2016 - 2017*
 
-- [**TK at RA Al-Hafizh H. Ali ↗️**](https://maps.app.goo.gl/BvDrJwETYvEM1scv6)  
+- [**TK at RA Al-Hafizh H. Ali**](https://maps.app.goo.gl/BvDrJwETYvEM1scv6)  
   Jl. Sei Blumai Hilir, Desa Buntu Bedimbar, Kec. Tj. Morawa,  
   Kabupaten Deli Serdang, Sumatera Utara 20362

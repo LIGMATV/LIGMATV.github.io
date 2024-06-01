@@ -46,7 +46,7 @@ button {
 
 /* CV */
 
-.profile img[alt="profile"] {
+body[data-page="CV.md"] .profile img[alt="profile"] {
     position: absolute;
     width: 100px;
     border-radius: 50%;
@@ -55,9 +55,13 @@ button {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.profile h2,
-.profile p:not(:first-child) {
+body[data-page="CV.md"] .profile h2,
+body[data-page="CV.md"] .profile p:not(:first-child) {
     padding-left: 130px;
+}
+
+body[data-page="CV.md"] a strong:after {
+    content: ' ↗️';
 }
 
 /* docsify-github-edit-link | https://github.com/zolk/docsify-github-edit-link */
@@ -90,14 +94,14 @@ footer {
     padding-bottom: 40px;
 }
 
-.time-updater {
+.time-created {
     color: var(--theme-color, #42b983);
     opacity: 0.5;
     font-size: 14px;
     padding-bottom: 16px;
 }
 
-.time-updater span::before {
+.time-created span::before {
     display: inline-block;
    content: ' ';
    width: 12px;
@@ -106,15 +110,11 @@ footer {
    margin-right: 5px;
 }
 
-.time-updater .author::before {
+.time-created .author::before {
    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z'/%3E%3C/svg%3E");
 }
 
-.time-updater .updated::before {
-    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M6 3a3 3 0 0 1 3 3c0 1.31-.83 2.42-2 2.83v6.34c1.17.41 2 1.52 2 2.83a3 3 0 0 1-3 3 3 3 0 0 1-3-3c0-1.31.83-2.42 2-2.83V8.83A2.99 2.99 0 0 1 3 6a3 3 0 0 1 3-3m0 2a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1m0 12a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1m15 1a3 3 0 0 1-3 3 3 3 0 0 1-3-3c0-1.31.83-2.42 2-2.83V7h-2v3.25L10.75 6 15 1.75V5h2a2 2 0 0 1 2 2v8.17c1.17.41 2 1.52 2 2.83m-3-1a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1'/%3E%3C/svg%3E");
-}
-
-.time-updater .created::before {
+.time-created .created::before {
     mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M19 3h-1V1h-2v2H8V1H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5v-2H5V8h14v1h2V5a2 2 0 0 0-2-2m2.7 10.35-1 1-2.05-2 1-1c.2-.21.54-.22.77 0l1.28 1.28c.19.2.19.52 0 .72M12 18.94l6.07-6.06 2.05 2L14.06 21H12z'/%3E%3C/svg%3E");
 }
 
@@ -163,8 +163,8 @@ window.$docsify = {
         lang: "en",
         loading: "lazy"
     },
-    timeUpdater: {
-    text: "<div class='time-updater'><span class='author'>LIGMATV</span> • <span class='created' title='Tanggal dibuat'>{docsify-created}</span> • <span class='updated' title='Tanggal terakhir kali diedit'>{docsify-updated}</span></div>",
+    timeCreated: {
+    text: "<div class='time-created'><span class='author'>LIGMATV</span> • <span class='created' title='Tanggal dibuat'>{docsify-created}</span></div>",
     formatUpdated: '{YYYY}/{MM}/{DD}',
     whereToPlace: "top", // top || bottom
   },
@@ -180,7 +180,7 @@ window.$docsify = {
     <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
     <script src="docsify-dark-switcher.js"></script>
     <script src="toc.js"></script>
-    <script src="time-updater.js"></script>
+    <script src="time-created.js"></script>
 
     <!-- Giscus -->
     <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css">
